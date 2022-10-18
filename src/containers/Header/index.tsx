@@ -1,5 +1,5 @@
 import styles from './Header.module.css';
-import { SubHeading } from '../';
+import { SubHeading } from '../../components';
 
 const Header = () => {
   return (

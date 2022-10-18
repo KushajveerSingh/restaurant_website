@@ -11,7 +11,7 @@ import {
   Gallery,
   FindUs,
   Footer,
-} from '../components';
+} from '../containers';
 
 const Home: NextPage = () => {
   return (

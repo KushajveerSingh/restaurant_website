@@ -1,11 +1,2 @@
-export { default as Navbar } from './Navbar';
-export { default as Header } from './Header';
-export { default as AboutUs } from './AboutUs';
-export { default as SpecialMenu } from './SpecialMenu';
-export { default as Chef } from './Chef';
-export { default as Intro } from './Intro';
-export { default as Laurels } from './Laurels';
-export { default as Gallery } from './Gallery';
-export { default as FindUs } from './FindUs';
-export { default as Footer } from './Footer';
+export { default as MenuItem } from './MenuItem';
 export { default as SubHeading } from './SubHeading';
