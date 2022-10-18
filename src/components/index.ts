@@ -8,3 +8,4 @@ export { default as Laurels } from './Laurels';
 export { default as Gallery } from './Gallery';
 export { default as FindUs } from './FindUs';
 export { default as Footer } from './Footer';
+export { default as SubHeading } from './SubHeading';
