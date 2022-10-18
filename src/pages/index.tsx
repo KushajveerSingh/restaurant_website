@@ -15,7 +15,7 @@ import {
 
 const Home: NextPage = () => {
   return (
-    <>
+    <div>
       <Navbar />
       <Header />
       <AboutUs />
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
       <Gallery />
       <FindUs />
       <Footer />
-    </>
+    </div>
   );
 };
 
