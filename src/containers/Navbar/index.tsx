@@ -1,5 +1,6 @@
 import styles from './Navbar.module.css';
 import { useState } from 'react';
+import Link from 'next/link';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
@@ -14,30 +15,42 @@ const Navbar = () => {
 
       <ul className={styles.app__navbar_links}>
         <li className="p__opensans">
-          <a href="#home">Home</a>
+          <Link href="#home">
+            <a href="#home">Home</a>
+          </Link>
         </li>
         <li className="p__opensans">
-          <a href="#about">About</a>
+          <Link href="#about">
+            <a href="#about">About</a>
+          </Link>
         </li>
         <li className="p__opensans">
-          <a href="#menu">Menu</a>
+          <Link href="#menu">
+            <a href="#menu">Menu</a>
+          </Link>
         </li>
         <li className="p__opensans">
-          <a href="#awards">Awards</a>
+          <Link href="#awards">
+            <a href="#awards">Awards</a>
+          </Link>
         </li>
         <li className="p__opensans">
-          <a href="#contact">Contact</a>
+          <Link href="#contact">
+            <a href="#contact">Contact</a>
+          </Link>
         </li>
       </ul>
 
       <div className={styles.app__navbar_login}>
-        <a href="#login" className="p__opensans">
-          Log In / Register
-        </a>
+        <Link href="#login">
+          <a href="#login" className="p__opensans">
+            Log In / Register
+          </a>
+        </Link>
         <div />
-        <a href="/" className="p__opensans">
-          Book Table
-        </a>
+        <Link href="/">
+          <a className="p__opensans">Book Table</a>
+        </Link>
       </div>
 
       <div className={styles.app__navbar_smallscreen}>
@@ -55,19 +68,29 @@ const Navbar = () => {
 
             <ul className={styles.app__navbar_smallscreen_links}>
               <li className="p__opensans">
-                <a href="#home">Home</a>
+                <Link href="#home">
+                  <a href="#home">Home</a>
+                </Link>
               </li>
               <li className="p__opensans">
-                <a href="#about">About</a>
+                <Link href="#about">
+                  <a href="#about">About</a>
+                </Link>
               </li>
               <li className="p__opensans">
-                <a href="#menu">Menu</a>
+                <Link href="#menu">
+                  <a href="#menu">Menu</a>
+                </Link>
               </li>
               <li className="p__opensans">
-                <a href="#awards">Awards</a>
+                <Link href="#awards">
+                  <a href="#awards">Awards</a>
+                </Link>
               </li>
               <li className="p__opensans">
-                <a href="#contact">Contact</a>
+                <Link href="#contact">
+                  <a href="#contact">Contact</a>
+                </Link>
               </li>
             </ul>
           </div>
