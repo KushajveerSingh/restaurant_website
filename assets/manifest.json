@@ -1,0 +1,11 @@
+{
+  "name": "Restaurant Website",
+  "short_name": "restaurant_website",
+  "description": "Converted Figma design into fully-responsive Nextjs/TypeScript/CSS(BEM) web app and deployed on Vercel.",
+  "theme_color": "#42a5f5",
+  "background_color": "#42a5f5",
+  "display": "standalone",
+  "orientation": "landscape",
+  "scope": "/",
+  "start_url": "/"
+}

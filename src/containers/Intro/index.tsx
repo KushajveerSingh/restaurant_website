@@ -4,28 +4,23 @@ import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 
 const Intro = () => {
   const [playVideo, setPlayVideo] = useState(false);
-  const videoRef = useRef();
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   const handleVideo = () => {
     setPlayVideo(!playVideo);
 
-    if (playVideo) {
-      videoRef.current.pause();
-    } else {
-      videoRef.current.play();
+    if (videoRef.current !== null) {
+      if (playVideo) {
+        videoRef.current.pause();
+      } else {
+        videoRef.current.play();
+      }
     }
   };
 
   return (
     <div className={styles.app__video}>
-      <video
-        src="/meal.mp4"
-        type="video/mp4"
-        loop
-        controls={false}
-        muted
-        ref={videoRef}
-      />
+      <video src="/meal.mp4" loop controls={false} muted ref={videoRef} />
 
       <div className={`${styles.app__video_overlay} flex__center`}>
         <div

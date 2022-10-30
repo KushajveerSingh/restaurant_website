@@ -16,13 +16,13 @@ const Chef = () => {
           <div className={styles.app__chef_content_quote}>
             <img src="/quote.png" alt="quote" />
             <p className="p__opensans">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit.
+              Colletta (collection) is a compilation of lively dining experiences.
             </p>
           </div>
           <p className="p__opensans">
-            auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla
-            scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu.
-            Congue iaculis integer curabitur semper sit nunc.
+            Our creative, food and beverage program combines satisfying staples with
+            imaginative twists. From boozy brunches and happy hours to family dinners,
+            special occasions and everything in between.
           </p>
         </div>
 

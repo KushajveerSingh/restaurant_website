@@ -15,9 +15,9 @@ const AboutUs = () => {
           <h1 className="headtext__cormorant">About Us</h1>
           <img src="/spoon.png" alt="about_spoon" className="spoon_img" />
           <p className="p__opensans">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-            adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu
-            proin mauris et.
+            The Original -- The OG -- reinvents the neighborhood eatery, combining
+            timeless inspiration from classic Americana with inventive and playful modern
+            flair.
           </p>
           <button type="button" className="custom__button">
             Know More
@@ -32,9 +32,9 @@ const AboutUs = () => {
           <h1 className="headtext__cormorant">Our History</h1>
           <img src="/spoon.png" alt="about_spoon" className="spoon_img" />
           <p className="p__opensans">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-            adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu
-            proin mauris et.
+            With influences ranging from the 1950s diner to the elegant railway dining
+            cars of days past, you'll find a nostalgic collection of comforts, classics
+            with a modern twist.
           </p>
           <button type="button" className="custom__button">
             Know More

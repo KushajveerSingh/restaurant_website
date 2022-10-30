@@ -5,16 +5,22 @@ import { SubHeading } from '../../components';
 
 const images = ['/gallery01.png', '/gallery02.png', '/gallery03.png', '/gallery04.png'];
 
+interface RefProps extends HTMLDivElement {
+  scrollLeft: number;
+}
+
 const Gallery = () => {
-  const scrollRef = useRef(null);
+  const scrollRef = useRef<RefProps>(null);
 
   const scroll = (direction: string) => {
     const { current } = scrollRef;
 
-    if (direction === 'left') {
-      current.scrollLeft -= 300;
-    } else {
-      current.scrollLeft += 300;
+    if (current !== null) {
+      if (direction === 'left') {
+        current.scrollLeft -= 300;
+      } else {
+        current.scrollLeft += 300;
+      }
     }
   };
 
@@ -25,8 +31,8 @@ const Gallery = () => {
 
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#AAA', marginTop: '2rem' }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum
-          turpis elit elit scelerisque egestas mu.
+          Drawing inspiration from classic Americana, we reinvent the neighborhood eatery
+          to create a timeless fusion of old and new.
         </p>
 
         <button type="button" className="custom__button">

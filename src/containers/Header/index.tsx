@@ -8,8 +8,9 @@ const Header = () => {
         <SubHeading title="Chase the new flavour" />
         <h1 className={styles.app__header_h1}>The Key to Fine Dining</h1>
         <p className="p__opensans" style={{ margin: '2rem 0' }}>
-          Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi
-          facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus
+          Our creative, food and beverage program combines satisfying staples with
+          imaginative twists. From boozy brunches and happy hours to family dinners, we
+          have something for everyone.
         </p>
         <button type="button" className="custom__button">
           Explore Menu
