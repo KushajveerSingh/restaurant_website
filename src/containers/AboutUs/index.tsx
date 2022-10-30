@@ -33,8 +33,8 @@ const AboutUs = () => {
           <img src="/spoon.png" alt="about_spoon" className="spoon_img" />
           <p className="p__opensans">
             With influences ranging from the 1950s diner to the elegant railway dining
-            cars of days past, you'll find a nostalgic collection of comforts, classics
-            with a modern twist.
+            cars of days past, you&apos;ll find a nostalgic collection of comforts,
+            classics with a modern twist.
           </p>
           <button type="button" className="custom__button">
             Know More
