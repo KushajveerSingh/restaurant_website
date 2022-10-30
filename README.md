@@ -19,9 +19,15 @@ Converted Figma design into fully-responsive modern UI/UX website using CSS Flex
 
 ### Mobile Demo
 
+https://user-images.githubusercontent.com/24699564/198903817-370a5eef-4385-4999-8f2c-9c20d844d93d.mp4
+
 ### Tablet Demo
 
+https://user-images.githubusercontent.com/24699564/198903820-b26a40f5-7492-46eb-b873-0674be108a2b.mp4
+
 ### Desktop Demo
+
+https://user-images.githubusercontent.com/24699564/198903825-5693e59b-f22b-425a-9a09-ac97592c6db1.mp4
 
 ## Dependencies
 - [React](https://reactjs.org/)
