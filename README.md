@@ -53,7 +53,7 @@ npm install --legacy-peer-deps
 **Step 3**. Create `.env.local` and copy the contents from `.env.example` to `.env.local`.
 - `NEXT_PUBLIC_BASE_URL` - set to `http://localhost:3000/` during development and when you deploy the project on Vercel, set it to the domain where the project is hosted.
 
-**Step 4**. Run `make run dev` to start the local development server at `localhost:3000`. Now you can customize the application as per your needs. Further, look at [Directory Setup](#directory-setup) section to understand how the source code is structured.
+**Step 4**. Run `npm run dev` to start the local development server at `localhost:3000`. Now you can customize the application as per your needs. Further, look at [Directory Setup](#directory-setup) section to understand how the source code is structured.
 
 **Step 5**. After making the desired changes, you can push your project to GitHub and you are ready for deployment on [Vercel](https://vercel.com/)
 
