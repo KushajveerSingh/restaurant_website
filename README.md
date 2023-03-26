@@ -3,7 +3,9 @@
 
 ![](assets/demo_image.png)
 
-Converted Figma design into fully-responsive modern UI/UX website using CSS FlexBox/Grid, animations, and gradients. Built using Next.js/TypeScript/CSS(BEM) and deployed on Vercel.
+- Transformed a Figma design into a fully responsive website with modern UI/UX using React, Next.js, and TypeScript, showcasing proficiency in design-to-development implementation and seamless deployment.
+- Leveraged React functional components and reusable code, adhering to best practices in file and folder structure, resulting in a well-organized and maintainable web application.
+- Mastered essential CSS properties for flex and grid layouts, applied BEM methodology for scalable styling, and integrated soft animations and complex gradients, along with carefully crafted media queries for optimal responsiveness across various devices.
 
 ## Table of Contents
 - [Demo Videos](#demo-videos)
